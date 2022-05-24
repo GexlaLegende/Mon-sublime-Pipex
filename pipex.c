@@ -26,7 +26,7 @@ int	main(int argc, char *argv[])
 	pipe(fd);
 	pid1 = fork();
 	if (pid1 == 0)
-	{
+	{ //coucou
 		execve("ping", "ping", "-c", "5", "google.com", NULL);
 	}
 
